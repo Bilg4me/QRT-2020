@@ -1,5 +1,4 @@
-# QRT2020
-QRT Data Challenge ENS 2020 - Stock Return Prediction
+# QRT Data Challenge ENS 2020 - Stock Return Prediction
 ---
 
 This repository contains the solution approach to the QRT Data Challenge ENS 2020. The solution is divided into three main notebooks: data preprocessing, feature selection, and model tuning.

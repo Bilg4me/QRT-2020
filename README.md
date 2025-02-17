@@ -31,7 +31,7 @@ This notebook is the base for feature selection.
 
 ### 3. Model Tuning
 
-This notebook shows the approach to solving the challenge by tuning machine learning models.
+This notebook shows my approach to optimize the hyperparameters and the machine learning models used to predict the target.
 
 #### Main Tasks
 - **Load data**: Load the train and test datasets. Loading differents selection of features made in the Data Features Selection part.

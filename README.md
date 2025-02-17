@@ -7,13 +7,14 @@ This repository contains the solution approach to the QRT Data Challenge ENS 202
 ### 1. Data Preprocessing
 
 This notebook is the base for:
+- Exploratory Data Analysis
 - Data cleaning
 - Data Imputation
 - Feature Engineering
 
 #### Main Tasks
 - **Load train and test data**: The train and test datasets are loaded with 46 features each.
-- **Drop rows with no observed returns**: All rows with no observed returns over the past 5 days are removed to clean the dataset.
+- **Drop rows with no observed returns**: All rows with too much missing returns values over the past days are removed to clean the dataset.
 - **Impute missing values**: Missing values in `RET_x` and `VOLUME_x` columns are imputed using the median to handle incomplete data.
 - **Generate new features**: New features are created based on statistical aggregations and transformations to enhance the dataset for better model performance.
 

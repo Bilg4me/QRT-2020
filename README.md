@@ -24,8 +24,8 @@ This notebook is the base for feature selection.
 #### Main Tasks
 - **Load data**: Load the train and test cleaned and extended datasets (from Data Preprocessing part).
 - **Remove highly correlated features**: Identify and remove features that are highly correlated to reduce redundancy.
-- **Feature selection through models**: Use models like RandomForest, XGBoost, and LightGBM to select important features based on their importance scores.
-- **Feature selection through statistics**: ANOVA F-value, Estimate mutual information for a discrete target variable
+- **Feature selection through models**: Use models like RandomForest and XGBoost to select important features based on their importance scores.
+- **Feature selection through statistics**: ANOVA F-value (f_classif), Estimate mutual information (mutual_info_classif) for a discrete target variable
 - **Other Feature selection Advanced Methods** : Feature ranking with recursive feature elimination (RFE, RFECV), SequentialFeatureSelector (forward/backward)
 - **Save selected features**: Save the selected features to CSV files for further use.
 

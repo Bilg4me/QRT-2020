@@ -7,3 +7,5 @@ lightgbm
 scikit-learn
 scipy
 catboost
+statsmodels
+optuna

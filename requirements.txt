@@ -9,3 +9,7 @@ scipy
 catboost
 statsmodels
 optuna
+fastparquet
+tqdm
+shap
+tables

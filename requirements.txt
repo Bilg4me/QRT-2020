@@ -13,3 +13,4 @@ fastparquet
 tqdm
 shap
 tables
+hurst
